@@ -1,0 +1,21 @@
+// Test cases for rythonz
+
+[Test]
+name: TestInitialization
+description: Verify language initialization
+script:
+    print("Rythonz initialized successfully.")
+
+[Test]
+name: TestCompilation
+description: Ensure compilation works
+script:
+    compile "example.ryz"
+    assert exists("bin/example_binary")
+
+[Test]
+name: TestInterpretation
+description: Ensure interpretation works
+script:
+    interpret "example.ryz"
+    assert output == "Expected Output"

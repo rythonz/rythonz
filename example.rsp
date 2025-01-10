@@ -1,0 +1,5 @@
+# Disable indentation rules
+# Indentation: off
+
+# Print a greeting
+print("Hello, World!")

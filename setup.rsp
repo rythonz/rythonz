@@ -1,0 +1,9 @@
+// Initialize build configurations
+
+// Compiler settings
+compiler: rythonz-compiler
+optimization: high
+output: bin/rythonz_binary
+
+// Interpreter settings
+interpreter: rythonz-interpreter
