@@ -51,6 +51,34 @@ rythonz build
 rythonz run
 ```
 
+## Directory Structure
+
+```
+rythonz/
+├── src/ - Contains the source code components.
+│   ├── lexer/ - Lexical analyzer.
+│   ├── parser/ - Syntax parser.
+│   ├── compiler/ - Compiler backend.
+│   └── runtime/ - Runtime environment.
+├── tests/ - Testing suites.
+│   ├── unit/ - Unit tests.
+│   └── integration/ - Integration tests.
+├── examples/ - Example programs showcasing language features.
+│   ├── basic/ - Basic usage examples.
+│   └── advanced/ - Advanced usage examples.
+├── docs/ - Documentation files.
+│   ├── guides/ - In-depth guides and tutorials.
+│   └── API/ - API documentation.
+├── tools/ - Auxiliary tools and scripts.
+│   ├── build/ - Build-related tools.
+│   └── scripts/ - Utility scripts.
+├── config/ - Configuration files.
+│   └── config.yaml - Main configuration.
+├── .gitignore
+├── Cargo.toml
+└── README.md
+```
+
 ## Documentation
 
 Comprehensive documentation is available [here](https://rythonz.org/docs).
