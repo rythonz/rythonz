@@ -1,5 +1,7 @@
 # Rythonz
 
+![rythonz](https://github.com/user-attachments/assets/13fa9d2d-e3dd-4a46-8fcf-3d5bc6924b1d)
+
 Rythonz is a cutting-edge programming language that seamlessly combines the best features of Rust, C, and Python. Designed for versatility and performance, Rythonz excels in operating system development, robotics, low-level programming, application and web development, and more.
 
 ## Key Features
